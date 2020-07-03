@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import withStyles from "@material-ui/core/styles/withStyles";
 import PropTypes from "prop-types";
-import MyButton from "../utils/MyButton";
+import MyButton from "../../utils/MyButton";
 
 // Mui stuff
 import Button from "@material-ui/core/Button";
@@ -14,13 +14,16 @@ import DeleteOutline from "@material-ui/icons/DeleteOutline";
 
 // redux stuff
 import { connect } from "react-redux";
-import { deleteScream } from "../redux/actions/dataActions";
+import { deleteScream } from "../../redux/actions/dataActions";
 
+{
+	/* In styles previous props for deleteBtn is left:90 top:10 */
+}
 const styles = {
 	deleteButton: {
 		position: "absolute",
-		left: "90%",
-		top: "10%",
+		left: "91%",
+		top: "2%",
 	},
 };
 

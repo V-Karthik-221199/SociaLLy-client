@@ -15,7 +15,7 @@ import IconButton from "@material-ui/core/IconButton";
 
 // redux
 import { connect } from "react-redux";
-import { logoutUser, uploadImage } from "../redux/actions/userActions";
+import { logoutUser, uploadImage } from "../../redux/actions/userActions";
 
 // icons
 import LocationOn from "@material-ui/icons/LocationOn";
